@@ -23,11 +23,54 @@
 - **Array flat()**: Flattening an array is the process of reducing the dimensionality of an array. e.g `const myArr = [[1,2],[3,4],[5,6]]; `,
   `const newArr = myArr.flat(); `
 
-## JavaScript Functions
 
+-----------------------------
+## JavaScript Functions
+    A JavaScript function is a block of code designed to perform a particular task.
+
+    A JavaScript function is executed when "something" invokes it (calls it).
+
+- A JavaScript function is a block of code designed to perform a particular task.
+
+- A JavaScript function is executed when "something" invokes it (calls it).
+
+#### Function Invocation
+
+-----------------------------
 ## JavaScript Reference Functions
+    Functions are first-class objects, because they can be passed to other functions, returned from functions, and assigned to variables and properties. 
+
     Values can be passed to a function as parameters, and the function will return a value.
 
+#### Return value
+
+- One function call can only return one value, but you can simulate the effect of **returning multiple values** by **returning an object** or **array and destructuring the result**.
+
+
+
+#### Passing arguments
+- Arguments are always passed by value and never passed by reference. This means that if a function reassigns a parameter, the value won't change outside the function. 
+
+#### Function parameters
+    Function parameter is a simple identifier that you can access in the local scope.
+
+
+#### Defining functions
+ Broadly speaking, JavaScript has four kinds of functions:
+- Regular function: can return anything; always runs to completion after invocation
+- Generator function: returns a Generator object; can be paused and resumed with the yield operator.
+- Async function: returns a Promise; can be paused and resumed with the await operator
+- Async generator function: returns an AsyncGenerator object; both the await and yield operators can be used
+
+For every kind of function, there are three ways to define it:
+- Declaration
+- Expression
+- Constructor
+
+#### Block-level functions
+- functions inside blocks are scoped to that block.
+
+--------------------------------
 ## JavaScript Control Flow Statements
 
     In JavaScript, there are three main types of control flow statements:
@@ -38,6 +81,8 @@
    - For Loops
    - While Loops : A while loop simply repeats itself while something is true.  **It continues until the condition is false.**
    -  do ... while loop :  The do ... while loop will first execute the code, then continue while the condition remains true.
+
+-----------------------------
 ## JavaScript Functions Basics
 
 - **Functions are the main “building blocks” of the program. They allow the code to be called many times without repetition.**
