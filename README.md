@@ -26,6 +26,7 @@
 ## JavaScript Functions
 
 ## JavaScript Reference Functions
+    Values can be passed to a function as parameters, and the function will return a value.
 
 ## JavaScript Control Flow Statements
 
