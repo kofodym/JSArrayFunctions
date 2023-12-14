@@ -5,7 +5,7 @@ let arrayofNumbers = [34, 33, 5, 2, 4];
 function printList(arr) {
   let element = '';
   for (let i = 0; i < arr.length; i++) {
-    element = arr[i] + ' ';
+    element = arr[i];
     console.log(element);
   }
 }
