@@ -29,6 +29,14 @@
 
 ## JavaScript Control Flow Statements
 
+    In JavaScript, there are three main types of control flow statements:
+
+- **if/else statements**: The if…else statement executes a block of code if a specified condition is true. If the condition is false, another block of code can be executed.
+- **switch statements**: Switch statements are used to execute a block of code based on the value of a variable or expression.
+- **Loops.**
+   - For Loops
+   - While Loops : A while loop simply repeats itself while something is true.  **It continues until the condition is false.**
+   -  do ... while loop :  The do ... while loop will first execute the code, then continue while the condition remains true.
 ## JavaScript Functions Basics
 
 - **Functions are the main “building blocks” of the program. They allow the code to be called many times without repetition.**
@@ -43,23 +51,22 @@ showMessage().
 ```
 
 ### Local, Outer,and Global variables
-
-    - Local variables declared inside a function **is only visible inside that function**.
-    - The **function has full access to the outer variable**. It can modify it as well.
-    - Global variables are visible from any function.
+- Local variables declared inside a function **is only visible inside that function**.
+-  The **function has full access to the outer variable**. It can modify it as well.
+- Global variables are visible from any function.
 
 ### Parameters
 
-    -  **Parameters** are arbitrary data passed to a function.
-    - **An argument** is the value that is passed to the function when it is called (it’s a call time term).
+-  **Parameters** are arbitrary data passed to a function.
+- **An argument** is the value that is passed to the function when it is called (it’s a call time term).
 
 ### Default values
 
-    - If a function is called, but an argument is not provided, then the corresponding value becomes undefined. e.g ```showMessage(from, text)``` called with ```showMessage("Ann"); ``` l would output ```*Ann*: undefined" ```
-    - We can specify the so-called “default” (to use if omitted) value for a parameter in the function declaration, using =. e.g ```showMessage(from, text = "no text given")```
-    - To check if parameter is missing use ``` ?? ```
+- If a function is called, but an argument is not provided, then the corresponding value becomes undefined. e.g ```showMessage(from, text)``` called with ```showMessage("Ann"); ``` l would output ```*Ann*: undefined" ```
+- We can specify the so-called “default” (to use if omitted) value for a parameter in the function declaration, using =. e.g ```showMessage(from, text = "no text given")```
+- To check if parameter is missing use ``` ?? ```
 
 ### Return a value
 
-    - When the execution reaches a **return**, the function stops, and the value is returned to the calling code.
-    - If a function does not return a value, it is the same as if it returns undefined
+-  When the execution reaches a **return**, the function stops, and the value is returned to the calling code.
+- If a function does not return a value, it is the same as if it returns undefined
